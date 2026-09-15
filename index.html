@@ -154,6 +154,7 @@
   .grid .card:nth-child(3){transition-delay:.25s}
   .grid .card:nth-child(4){transition-delay:.35s}
   .grid .card:nth-child(5){transition-delay:.45s}
+  .grid .card:nth-child(6){transition-delay:.55s}
   .benefit-grid .benefit:nth-child(1){transition-delay:.05s}
   .benefit-grid .benefit:nth-child(2){transition-delay:.12s}
   .benefit-grid .benefit:nth-child(3){transition-delay:.19s}
@@ -163,6 +164,7 @@
   .flyer-grid .flyer:nth-child(1){transition-delay:.05s}
   .flyer-grid .flyer:nth-child(2){transition-delay:.18s}
   .flyer-grid .flyer:nth-child(3){transition-delay:.31s}
+  .flyer-grid .flyer:nth-child(4){transition-delay:.44s}
 
   /* La línea dorada de los títulos "crece" al aparecer la sección */
   html.js-ready .reveal .divider{width:0;transition:width .8s ease .25s}
@@ -362,7 +364,7 @@
   }
   .about-photo img{
     position:absolute;inset:0;
-    width:100%;height:100%;object-fit:cover;
+    width:100%;height:100%;object-fit:cover;object-position:center 15%;
     transition:transform .6s ease;
   }
   .about-photo:hover img{transform:scale(1.05)}
@@ -729,7 +731,7 @@
         </ul>
       </div>
       <div class="reveal about-photo">
-        <img src="asesoria-conversacion.jpg" alt="Asesora de Coomeva explicando gráficos financieros a una pareja durante una reunión de asesoría patrimonial" loading="lazy">
+        <img src="asesoria-conversacion.jpg" alt="Martha Sánchez, asesora patrimonial de Coomeva" loading="lazy">
         <div class="about-quote">
           <div class="divider"></div>
           <p>"Proteger tu patrimonio y el de tu familia empieza por una conversación clara, sin tecnicismos ni promesas vacías."</p>
@@ -811,6 +813,17 @@
           </div>
         </article>
 
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="WhatsApp Image 2026-09-14 at 9.45.04 PM.jpeg" alt="Coomeva: ahorro para 2, 5 o 10 años, para viaje, educación, vivienda o el sueño que más te mueve" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3>Construcción de Capital a Corto Plazo</h3>
+            <p>Ahorra a 2, 5 o 10 años para ese objetivo cercano: un viaje, la cuota inicial de vivienda o cualquier meta que quieras cumplir pronto.</p>
+            <a class="card-link" href="https://api.whatsapp.com/send?phone=573015894730&text=Hola%20Martha%20Leonor%2C%20estoy%20interesado%2Fa%20en%20recibir%20informaci%C3%B3n%20sobre%20Construcci%C3%B3n%20de%20Capital%20a%20Corto%20Plazo." target="_blank" rel="noopener">Me interesa →</a>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
@@ -841,6 +854,12 @@
                alt="Plan Educativo: tú escoges el plazo y monto de capital, con auxilios en caso de desempleo, disminución de ingresos, fallecimiento o gran invalidez."
                loading="lazy">
           <figcaption>Plan Educativo · Beneficios</figcaption>
+        </figure>
+        <figure class="flyer reveal">
+          <img src="WhatsApp Image 2026-09-14 at 9.45.04 PM.jpeg"
+               alt="Coomeva: ahorro para 2, 5 o 10 años, para viaje, educación, vivienda o el sueño que más te mueve"
+               loading="lazy">
+          <figcaption>Construcción de Capital a Corto Plazo · Coomeva</figcaption>
         </figure>
       </div>
     </div>
@@ -938,6 +957,7 @@
               <option>Seguros y Protección</option>
               <option>Plan Educativo</option>
               <option>Plan Vejez y Retiro</option>
+              <option>Construcción de Capital a Corto Plazo</option>
             </select>
           </div>
 
